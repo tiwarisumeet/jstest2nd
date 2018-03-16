@@ -21,7 +21,7 @@ if(!localStorage.getItem('name'))
 }
 else 
 {
-    var storedName = localStorage.getItem('name');
+   var storedName = localStorage.getItem('name');
    myHeading.textContent = 'Mozilla is cool, ' + storedName;
 }
 myButton.onclick = function()
